@@ -18,6 +18,9 @@ function draw() {
   //Diamond
   translate(width/2, height*0.125);
   grdDiamond(0, 0, height*0.75, c2, c1);
+  
+  save("20210104.png");
+  noLoop();
 }
 
 function grdDiamond(x, y, h, c1, c2){
